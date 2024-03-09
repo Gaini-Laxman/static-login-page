@@ -1,0 +1,40 @@
+<!-- app.component.html -->
+<header>
+  <h1>KLIT</h1>
+</header>
+
+<div class="container">
+  <aside>
+    <!-- Slide menu content goes here -->
+    <ul>
+      <li><a href="login">user Login</a></li>
+      <li><a href="register">Register Here</a></li>
+      <li><a href="Admin">Admin</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <!-- Main content (e.g., login form) goes here -->
+    <div>
+      <h4>User Login</h4>
+      <div>
+        Username: <input type="text" [(ngModel)]="username">
+      </div><br>
+      <div>
+        Password: <input type="password" [(ngModel)]="password">
+      </div><br>
+      <button (click)="checkLogin()">Login</button> 
+      <p>{{ msg }}</p>
+    </div>
+  </main>
+  <!-- footer.component.html -->
+<footer class="bg-gradient-to-r from-blue-500 to-green-500 p-4 text-white">
+  <div class="container mx-auto flex justify-center">
+    <p>&copy; 2024 . All rights reserved.</p>
+  </div>
+</footer>
+</div>
+
+
+
+

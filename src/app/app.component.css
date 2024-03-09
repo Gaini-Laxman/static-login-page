@@ -1,0 +1,40 @@
+/* app.component.css */
+header, footer {
+    background-color: #a20d0d;
+    color: white;
+    padding: 1px;
+  }
+  
+  .container {
+    display: flexbox;
+  }
+  
+  aside {
+    width: 50px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  aside ul li {
+    margin-bottom: 10px;
+  }
+  
+  aside ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  aside ul li a:hover {
+    color: #666;
+  }
+  
